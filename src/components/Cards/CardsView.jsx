@@ -5,19 +5,18 @@ const USID = require("usid");
 const usid = new USID();
 
 export default function CardsView(props) {
-  const ul = [];
-
-  props.products.map((product) => {
-    const listItem = (
-      <li key={usid.rand()} className="products-list-item">
-        <ShopCard item={product} />
-      </li>
-    );
-
-   return  ul.push(listItem);
-  });
-
-  return <ul className="products-module">{ul}</ul>;
+ 
+  return (
+    <ul className="products-module">
+      {props.products.map((product) => {
+        return (
+          <li key={usid.rand()} className="products-list-item">
+            <ShopCard item={product} />
+          </li>
+        );
+      })}
+    </ul>
+  );
 }
 
 CardsView.propTypes = {
