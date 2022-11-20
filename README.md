@@ -1,11 +1,11 @@
-# ra-events-state-layouts
+﻿# ra-events-state-layouts
 
 Расположение товаров
 ===
 
 Вам необоходимо сделать приложение для отображение товаров в интернет-магазине. Заказчик хочет, чтобы пользователь мог увидеть товары в виде карточек или в виде списка, в зависимости от того, какое расположение выберет пользователь. 
 
-![cards view](https://github.com/222Alexa/ra16-homeworks/raw/master/events-state/layouts/assets/card_view.png)
+![cards view]
 
 ## Описание проекта
 
@@ -36,7 +36,7 @@
 - из компонента `Store` передать правильную иконку в свойство `icon` компонента `IconSwitch`
 - в компоненте `Store` отобразить товары в компоненте `CardsView` или `ListView` соответсвенно состоянию компонента `App`
 
-![list_view](https://github.com/222Alexa/ra16-homeworks/raw/master/events-state/layouts/assets/list_view.png)
+![list_view]
 
 Не забудьте подключить Material Icons:
 ```css
@@ -80,4 +80,4 @@ const products = [{
 
 ---
 
-[![Build status](https://ci.appveyor.com/api/projects/status/c0khxfamv9rl7jx6/branch/main?svg=true)](https://ci.appveyor.com/project/222Alexa44925/ra-events-state-layouts/branch/main)
+[![Build status]
